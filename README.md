@@ -10,11 +10,11 @@ But what about when you have several doors that you want to monitor? At least ou
 our different doors - it would be nice to have an additional outdoor transmit unit.
 
 This is pretty easy to set up. Get a cheap wireless 433.92 MHz PIR unit from Ebay or second hand wireless PIR
-from some alarm system. Hook up a small Arduino board (probably works with a basic ATTINY85 too) to the PIR's output,
+from some alarm system. Hook up a small Arduino board (should work with a basic ATTINY85 too) to the PIR's output,
 then load the Arduino with the code in this repo, and hook suitable pin from the Arduino (for example pin 4, this
-will avoidcollision with the serial port on pin 0 and 1) to the 433.92 MHz transmitter. 
+will avoid collision with the serial port on pin 0 and 1) to the 433.92 MHz transmitter. 
 
-The Arduino board can probably run off the same battery as the PIR unit itself, if you choose an Arduni Nano or 
+The Arduino board can probably run off the same battery as the PIR unit itself, if you choose an Arduino Nano or 
 similar, there is a good chance that board will fit inside the PIR unit too.
 
 
